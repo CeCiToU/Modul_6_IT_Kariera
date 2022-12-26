@@ -1,0 +1,12 @@
+SELECT * FROM car_result;
+SELECT * FROM name_result;
+SELECT * FROM categories;
+SELECT * FROM cars;
+SELECT * FROM employees;
+SELECT * FROM customers;
+SELECT * FROM rental_orders;
+SELECt * FROM employees WHERE id <= 2;
+SELECT id AS 'employee_id', first_name AS f_n, last_name AS l_n  FROM employees AS emp;
+SELECT c.id, c.model, c.doors AS d FROM cars AS c;
+SELECT DISTINCT first_name FROM employees;
+SELECT concat(first_name, ' ', last_name) AS Full_Name, id AS 'NO' FROM employees;
